@@ -1,0 +1,23 @@
+/* Colors */
+.color1{color: #96958a}
+.color2{color: #76877d }
+.color3{color: #88b8a9 }
+.color4{color: #b2cbae }
+.color5{color: #dbddb4 }
+/* Colors */
+/* NavBar */
+.navbar{
+    padding: 1rem;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+/* NavBar */
+/* Responsive Design */
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
+}
+/* Responsive Design */
