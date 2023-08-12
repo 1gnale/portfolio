@@ -6,6 +6,14 @@
 .color5{color: #dbddb4 }
 /* Colors */
 /* General */
+.title-section{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.text-section{
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+}
 section{
     display: flex;
     flex-direction: column;
@@ -48,7 +56,24 @@ h1{
 .home-secondary{
     background-color: #76877d;
 }
+.home-secondary h3{
+    color: #dbddb4;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
 /* Home */
+/* About */
+.about{
+    height: 500px;
+    padding: 10px;
+    background-color: #96958a;
+}
+.about .generic-container{
+    max-width: 600px;
+    text-align: center;
+}
+/* About */
 /* Responsive Design */
 @media screen and (max-width: 767px) {
     .navbar-brand{
