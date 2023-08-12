@@ -74,6 +74,32 @@ h1{
     text-align: center;
 }
 /* About */
+/* Exp */
+.exp{
+    padding: 40px 40px 60px 40px;
+    background-color: #76877d;
+}
+
+.exp .row div .badge-container{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge{
+    margin: 5px;
+}
+.exp-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.exp i{
+    font-size: 1.5rem;
+    background-color: #88b8a9;
+    padding: 8px 18px;
+    border-radius: 50%;
+}
+/* Exp */
 /* Responsive Design */
 @media screen and (max-width: 767px) {
     .navbar-brand{
