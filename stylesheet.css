@@ -194,6 +194,18 @@ h1{
     margin-bottom: 0;
 }
 /* Companions  */
+/* footer */
+footer{
+    background-color: black;
+    min-height: 175px;
+}
+/* footer .footer-icons{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+} */
+/* footer */
 /* Responsive Design */
 @media screen and (max-width: 767px) {
     .navbar-brand{
